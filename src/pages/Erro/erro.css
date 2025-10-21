@@ -1,0 +1,28 @@
+.erro {
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.erro h1 {
+    font-size: 100px;
+}
+
+.erro a {
+    margin-top: 10px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.404);
+    border: 1px solid white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.50s;
+}
+
+.erro a:hover {
+    background-color: rgba(0, 0, 0, 0.404);
+}
