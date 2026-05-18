@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+# 🎬 Filmaria
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Um catálogo de filmes desenvolvido com React, consumindo dados de uma API para listar filmes em cartaz, exibir detalhes individuais e permitir salvar filmes favoritos no navegador.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📖 Sobre o Projeto
 
-### `npm start`
+O **Filmaria** é uma aplicação front-end criada para praticar conceitos modernos do React, como:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Componentização
+- Rotas com React Router
+- Consumo de API REST
+- Gerenciamento de estado com Hooks
+- Persistência de dados com LocalStorage
+- Navegação SPA (Single Page Application)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A aplicação permite navegar entre filmes, visualizar detalhes específicos e salvar favoritos localmente.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ Funcionalidades
 
-### `npm run build`
+- 🎥 Listagem de filmes
+- 🔎 Página de detalhes do filme
+- ❤️ Sistema de favoritos
+- 🗑️ Remoção de favoritos
+- 🔄 Navegação dinâmica entre páginas
+- 📱 Interface responsiva
+- ⚡ Consumo de API externa
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Tecnologias Utilizadas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React
+- React Router DOM
+- JavaScript
+- HTML5
+- CSS3
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📂 Estrutura do Projeto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+src/
+├── components/
+├── pages/
+│   ├── Home/
+│   ├── Filme/
+│   └── Favoritos/
+├── routes/
+├── services/
+├── App.js
+└── main.jsx
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## ⚙️ Como Executar o Projeto
 
-## Learn More
+### 1️⃣ Clone o repositório
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone https://github.com/gdev-13/Filmaria.git
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 2️⃣ Acesse a pasta do projeto
 
-### Code Splitting
+```bash
+cd Filmaria
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 3️⃣ Instale as dependências
 
-### Analyzing the Bundle Size
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 4️⃣ Execute o projeto
 
-### Making a Progressive Web App
+```bash
+npm run dev
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🎯 Objetivos do Projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Este projeto foi desenvolvido com foco em praticar:
 
-### Deployment
+- Consumo de APIs REST
+- Estruturação de aplicações React
+- Gerenciamento de rotas
+- Persistência local de dados
+- Organização de componentes
+- Desenvolvimento de interfaces modernas
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 📚 Aprendizados
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Durante o desenvolvimento deste projeto foram praticados conceitos importantes como:
+
+- Hooks (`useState`, `useEffect`)
+- React Router
+- LocalStorage
+- Renderização dinâmica
+- Manipulação de listas
+- Comunicação com APIs externas
+
+---
+
+## 📄 Licença
+
+Este projeto é de código aberto e pode ser usado livremente para aprendizado.
