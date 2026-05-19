@@ -63,7 +63,7 @@ src/
 ### 1️⃣ Clone o repositório
 
 ```bash
-git clone https://github.com/gdev-13/Filmaria.git
+git clone https://github.com/gdev-13/filmaria.git
 ```
 
 ### 2️⃣ Acesse a pasta do projeto
