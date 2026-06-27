@@ -69,7 +69,7 @@ git clone https://github.com/gdev-13/filmaria.git
 ### 2️⃣ Acesse a pasta do projeto
 
 ```bash
-cd Filmaria
+cd filmaria
 ```
 
 ### 3️⃣ Instale as dependências
@@ -81,7 +81,7 @@ npm install
 ### 4️⃣ Execute o projeto
 
 ```bash
-npm run dev
+npm start
 ```
 
 ---
